@@ -43,7 +43,7 @@ Notre tribu est divisé en 9 squads. Chaque squad est entièrement dédiée à u
 Toute la tribu se réuni tous les 3 mois pour planifier les taches des 3 mois à venir lors de la cérémonie du PI (Program Incrément) planning. Cette cérémonie dure 2 jours ou les équipes échanges entre elles à propos de leurs besoins et de leurs dépendances. La cérémonie du PI Planning est animé par notre RTE (Release Train Engineer), Hanin Slimen.
 
 ## Les squads:
-Nous sommes donc réparti en 9 squads (en suivant le plan de développement logicielle d'intégration continu - déploiement continu):
+Nous sommes donc réparti en 9 squads (en suivant le plan de développement logiciel d'intégration continu - déploiement continu):
 - Agile Tools
 - CI BOX
 - ACID / CMF
