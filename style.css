@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(236, 231, 222);
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.container {
+    width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+        margin: 10px;
+    }
+}
+
+
+.card-white {
+    background-color: whitesmoke;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#markom {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#hobbies {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 0px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: rgb(71, 71, 71);
+}
+
+.list-inline i:hover {
+    color: rgb(0, 0, 0);
+}
+
+.img-circle {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.slider {
+    width: 500px;
+    height: 200px;
+    overflow: hidden;
+    margin: 150px auto;
+}
+
+.slides {
+    width: calc(500px * 11);
+    animation: glisse 30s infinite;
+}
+
+.slide {
+    float: unset;
+}
+
+.carousel-indicators {
+    bottom: -10px;
+}
+
+.carousel-control-next {
+    color: black;
+    opacity: 1;
+}
+
+.carousel-control-next:hover {
+    color: black;
+    opacity: 1;
+}
+
+.carousel-control-prev {
+    color: black;
+    opacity: 1;
+}
+
+.carousel-control-prev:hover {
+    color: black;
+    opacity: 1;
+}
