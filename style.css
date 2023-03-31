@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(236, 231, 222);
+    background-color: rgb(255, 146, 146);
     color: black;
     font-family: 'Inconsolata', monospace;
     font-weight: normal;
@@ -113,24 +113,37 @@ a:hover {
     padding-bottom: 25px;
 }
 
+.rectangle-image {
+    width: 200px;
+    height: 100px;
+}
+
 .slider {
     width: 500px;
     height: 200px;
     overflow: hidden;
     margin: 150px auto;
+    text-align: center;
+
 }
 
 .slides {
     width: calc(500px * 11);
     animation: glisse 30s infinite;
+    text-align: center;
+
 }
 
 .slide {
     float: unset;
+    text-align: center;
+
 }
 
 .carousel-indicators {
     bottom: -10px;
+    text-align: center;
+
 }
 
 .carousel-control-next {
