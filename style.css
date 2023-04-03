@@ -145,6 +145,12 @@ a:hover {
     right: 33%;
 }
 
+.logo {
+width: 33px;
+height: 33px;
+
+}
+
 .slider {
     width: 500px;
     height: 200px;
