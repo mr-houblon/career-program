@@ -30,8 +30,10 @@ p {
 }
 
 a {
-    color: black;
+    display: inline-block;
+    padding: 5px;
     text-decoration: none;
+    color: #333;
 }
 
 a:hover {
@@ -115,7 +117,32 @@ a:hover {
 
 .rectangle-image {
     width: 200px;
-    height: 100px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.illustration-droite {
+    width: 200px;
+    height: auto;
+    margin-left: 100px;
+    position: relative;
+    float: right;
+}
+
+.illustration-gauche {
+    width: 200px;
+    height: auto;
+    margin-right: 100px;
+    position: relative;
+    float: left;
+}
+
+.illustration-centre {
+    width: 33%;
+    height: auto;
+    position: relative;
+    left: 33%;
+    right: 33%;
 }
 
 .slider {
